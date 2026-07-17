@@ -1,10 +1,12 @@
 # webaudio-midi-composer
 
 ```
-  ▘▝▘▘ ▛▀▚▖   ▗▀▀▘▘▝ ▘▘   ▞▀▚▖▘▝▘  ▗▄▟▙▄▖
-  ▗▄▄▖ ▌ ▐▌▗▖ ▌▗▄▖▗▖▄ ▄▄  ▌ ▐▌▄ ▄  ▐█████▌
-  ▘▘ ▝▘▙▄▞▘▝▘ ▝▘▘▝▘▝ ▘▘▘  ▙▄▞▘▘▘▝   ▝▜█▛▘
-  bass  arp   lead        bells      drums
+lead  |                        ██ █ █ ██ ██████
+arp   |        █ █ ██ █ █ ██ █ █ ██ █ █ █
+bass  |    ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ █████
+drums |    █  █ █ ██ █  █ █ ██ █ ██ █ ██ █   █
+      +--------------------------------------->
+           the gallop        the climb    dawn
 ```
 
 A [Claude Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) that teaches Claude to **compose original music** and **play MIDI files** directly inside a chat conversation — with real synthesized drums, a full Web Audio effects chain, a piano-roll visualization, and playback controls. No samples. No libraries. No audio files. Every sound is oscillators and filtered noise, born at play-time in your browser.
